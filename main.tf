@@ -7,8 +7,9 @@ terraform {
 }
 
 provider "aws" {
+  version = "~> 3.0"
   profile = "default"
-  region = "us-west-2"
+  region = var.region
 }
 
 resource "aws_instance" "example" {
