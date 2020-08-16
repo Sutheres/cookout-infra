@@ -1,9 +1,3 @@
-# AWS access key used to create infrastructure
-aws_access_key = ""
-
-# AWS secret key used to create infrastructure
-aws_secret_key = ""
-
 # AWS region used for all resources
 region = "us-west-2"
 

@@ -8,11 +8,10 @@ terraform {
 
 provider "aws" {
   version = "~> 3.0"
-  profile = "default"
   region = var.region
 }
 
-resource "aws_instance" "example" {
-  ami = "ami-067f5c3d5a99edc80"
-  instance_type = "t3.micro"
-}
+//resource "aws_instance" "example" {
+//  ami = "ami-067f5c3d5a99edc80"
+//  instance_type = "t3.micro"
+//}
